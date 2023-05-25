@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdHonorio Register</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="icon" type="image/png" href="/images/logo.png">
+
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+        <!-- Latest compiled JavaScript -->
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Poppins;
+            background-color: #e3e8f371;
+
+        }
+
+        .login-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .inputs {
+            min-width: 300px;
+        }
+        .footer {
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: #DD564C;
+        }
+        .nav-link {
+            font-weight: bold;
+            color: #3D237C;
+        }
+        .footer-links {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+
+        .footer-margin {
+            margin-top: 150px;
+            margin-bottom: -20px;
+        }
+        form {
+            justify-content: center;
+            align-items: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!--Dito yung main Header content-->
+    <div class="container ">
+        <div class="row ">
+            <div class="col-12 col-md-4" >
+            <p style="color: #DD2F23; font-size: 40px; margin-left: 30px; margin-top: 15px;"><strong> <b style="color: #3D237C;">Ad</b>Honorio</strong></p>
+            </div>
+            <nav class="col navbar navbar-expand-md justify-content-start justify-content-md-end " style="margin-left: 20px; font-size: 20px;">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+<!--Dito yung main login content-->
+    <div class="container mb-5 bg-white mt-5" style="border-radius: 20px;">
+        <div class="row shadow-lg" style="border-radius: 20px;">
+            <div class="col col-lg-5 login-container">
+                <p class="mb-5" style="margin-top: 100px; font-size: 30px;"><b>Create an Account</b> </p>
+
+ <!--Dito yung form tag content pang backend-->
+                <form action="" style="margin-bottom: 100px;">
+                    <div class="mb-3 mt-3" style="display: flex; position: relative;">
+                        <img src="images/user.png" alt="mail" style="position: absolute; height: 30px; top: 4px; left: 6px;">
+                        <input class="inputs form-control rounded-2" type="text" placeholder="Username" style="padding-left: 40px;">
+                    </div>
+                    <div class="mb-3 mt-3" style="display: flex; position: relative;">
+                        <img src="images/iconmail.png" alt="mail" style="position: absolute; height: 27px; top: 5px; left: 8px;">
+                        <input class="inputs form-control rounded-2" type="text" placeholder="Email" style="padding-left: 40px;">
+                    </div>
+                    
+                    <div class="mt-3 mb-3" style="display: flex; position: relative;">
+                        <img src="images/locklock.png" alt="lock" style="position: absolute; height: 27px; top: 5px; left: 8px;">
+                        <input class="inputs form-control rounded-2" type="password" placeholder="Password" style="padding-left: 40px;">
+                    </div>
+    
+                    <div class="mt-3" style="display: flex; position: relative;">
+                        <img src="images/locklock.png" alt="lock" style="position: absolute; height: 27px; top: 5px; left: 8px;">
+                        <input class="inputs form-control rounded-2" type="password" placeholder="Confirm Password" style="padding-left: 40px;">
+                    </div>
+    
+                    <div class="mt-5 mb-3">
+                        <button class="btn btn-danger inputs rounded-5"><b>Log in</b></button>
+                        <hr>
+                    </div>
+                    
+                    <div class="mb-5 " style="margin-left: 15px;" >
+                        <span>Already have an Account?</span>
+                        <a href="">Log in</a>
+                    </div>
+                </form>
+                
+                
+            </div>
+            <div class="col col-lg-7" style="background-color: #998DBB; display: flex; flex-direction: column; justify-content: center; border-radius: 0 20px 20px 0;">
+                <img style="height: 500px;" src="/images/form.png" alt="background" class="img-fluid mx-auto d-block">
+            </div>
+        </div>
+        
+    </div>
+    <!--Dito yung main Footer content-->
+    <div class="container-fluid footer-margin" style="background-color: #DD564C;">
+        <div class="table-responsive footer" style="padding-top: 40px;">
+            <table class="table table-borderless footer">
+                <tr style="font-size: 20px;">
+                    <th>ADHONORIO</th>
+                    <th>Resources</th>
+                    <th>Follow Us</th>
+                    <th>Support</th>
+                    <th>Blog</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a class="footer-links" href="">Home</a></td>
+                    <td><a class="footer-links" href="">Facebook</a></td>
+                    <td><a class="footer-links" href="">Contact Us</a></td>
+                    <td><a class="footer-links" href="">How to start a business</a> 
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a class="footer-links" href="">About</a></td>
+                    <td><a class="footer-links" href="">Twitter</a></td>
+                    <td><a class="footer-links" href="">Privacy Policy</a></td>
+                    <td><a class="footer-links" href="">Start with why</a> 
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a class="footer-links" href="">Login</a></td>
+                    <td><a class="footer-links" href="">Instagram</a></td>
+                    <td><a class="footer-links" href="">Terms & Conditions</a></td>
+                    <td><a class="footer-links" href="">Becoming an entrepreneur</a> 
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a class="footer-links" href="">Register</a> </td>
+                    <td><a class="footer-links" href="">LinkedIn</a> </td>
+                    <td><a class="footer-links" href="">Donate</a> </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="5" style="border-top: 1px solid white;">
+                        <p style="text-align: center; color: white; padding-top: 20px; height: 80px; margin-bottom: -20px;">&copy;AdHonorio. All Rights Reserved, 2023</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
